@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react";
+import Login from "../Auth/Login";
 
-const CompleteTask = ({ data }) => {
+const ActiveTask = ({ data }) => {
   return (
     <div>
       <div className="flex-shrink-0 h-full w-[300px] p-5 bg-yellow-400 rounded-xl">
@@ -17,4 +18,4 @@ const CompleteTask = ({ data }) => {
   );
 };
 
-export default CompleteTask
+export default ActiveTask;
